@@ -68,8 +68,8 @@ A comprehensive **desktop application** built with **Java Swing** and powered by
 
 Ensure the following software is installed on your system:
 
-* **Java Development Kit (JDK)**: Version 21 or newer
-* **MySQL Server**: Version 8.0 or newer
+* **Java Development Kit (JDK)**: Version 21 or newer  
+* **MySQL Server**: Version 8.0 or newer  
 * **IDE**: IntelliJ IDEA, Eclipse, or any Java-compatible IDE
 
 ---
@@ -116,8 +116,11 @@ In your IDE, open the project. The database credentials are currently hardcoded 
 
 4. **Run the Application**
 
-* Locate the `Home.java` file
-* Right-click on it → `Run As` → `Java Application`
+* Locate the `Home.java` file inside the `src` directory  
+* Open CMD or terminal in the `src` directory, then compile and run using the following commands:
+  ```bash
+  javac -cp ".;mysql-connector-j-9.4.0.jar" *.java
+  java -cp ".;mysql-connector-j-9.4.0.jar" Home
 * The EMS GUI should now launch
 
 ---
@@ -125,4 +128,4 @@ In your IDE, open the project. The database credentials are currently hardcoded 
 ## 👨‍💻 Author
 
 **Created by:** Abhay
-**Last updated:** July 2024
+**Last updated:** July 2025
