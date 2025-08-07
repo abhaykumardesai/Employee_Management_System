@@ -117,7 +117,10 @@ In your IDE, open the project. The database credentials are currently hardcoded 
 4. **Run the Application**
 
 * Locate the `Home.java` file
-* Right-click on it → `Run As` → `Java Application`
+* Open CMD in the directory containing `Home.java`, then compile and run it using the following commands:
+  ```bash
+  javac Home.java
+  java Home
 * The EMS GUI should now launch
 
 ---
