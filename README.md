@@ -119,6 +119,7 @@ In your IDE, open the project. The database credentials are currently hardcoded 
 * Locate the `Home.java` file inside the `src` directory  
 * Open CMD or terminal in the `src` directory, then compile and run using the following commands:
   ```bash
+  cd src
   javac -cp ".;mysql-connector-j-9.4.0.jar" *.java
   java -cp ".;mysql-connector-j-9.4.0.jar" Home
 * The EMS GUI should now launch
